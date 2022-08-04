@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcyan;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    margin: 50px;
+    padding-left: 250px;
+    padding-top: 15px;
+}
+
+img {
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+    box-shadow: 8px 8px 5px 5px lightskyblue;
+    border-radius: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
